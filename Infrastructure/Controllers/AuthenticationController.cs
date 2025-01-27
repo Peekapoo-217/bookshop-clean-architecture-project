@@ -1,4 +1,5 @@
 ﻿using Entities;
+using Entities.Enums;
 using Infrastructure.Models.ViewModels;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -8,6 +9,11 @@ using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 using System.Security.Claims;
 using UseCases;
+<<<<<<< HEAD
+=======
+using UseCases.Repositories;
+using UseCases.TaskResults;
+>>>>>>> d3cf09f (update login by email)
 
 namespace Infrastructure.Controllers
 {
